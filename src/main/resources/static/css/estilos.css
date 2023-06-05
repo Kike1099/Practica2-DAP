@@ -1,0 +1,91 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D7CEC7;
+    color: #565656;
+    padding: 90px 20px 0;
+    
+}
+
+aside{
+    text-align: center;
+    background-color: #C09F80;
+    color: #F3F3F3;
+    
+}
+
+.header{
+    position: fixed;
+    background-color: white;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #76323F;
+    
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover{
+    background-color: #F3F3F3;
+    transition: 0.5s;
+    
+    
+}
+
+.foot{
+    background: white;
+    color: #76323F;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+

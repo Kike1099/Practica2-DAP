@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Gatos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">Gatos</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="videos.html" class="nav-link nav-menu-link">&leftarrow;</a></li>
+                    <li class="nav-menu-item"><a href="index.html" class="nav-link nav-menu-link">&rightarrow;</a></li>
+                    <li class="nav-menu-item"><a href="audios.html" class="nav-link nav-menu-link">Maullidos</a></li>
+                    <li class="nav-menu-item"><a href="videos.html" class="nav-link nav-menu-link">Videos</a></li>
+                    <li class="nav-menu-item"><a href="contacto.html" class="nav-link nav-menu-link">Contactar</a></li>
+                   
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Aside -->
+        <aside>
+            <h1>Información de contacto y envio de formulario</h1>
+            
+        </aside>
+        
+        <!-- Section -->
+        <section>
+            
+            <br>
+            
+            <br>
+            
+            <article>
+                <h2>Fomulario para adoptar un gato</h2>
+                <br>
+                <form action="adopcion" method="post">
+                    Nombre: <input type="text" required name="nombre" value="" size="50" />
+                    <br>
+                    Correo: <input type="email" required name="correo" value="" size="50" />
+                    <br>
+                    Número de teléfono:<input type="text" required name="numero" value="" size="16" />
+                    <br>
+                    Fecha de nacimiento: <input type="date" name="fecha"/>
+                    <br>
+                    <p>Sexo del gato que desea adoptar:</p>
+                    <input type="radio" name="genero" value="" /> Macho
+                    <input type="radio" name="genero" value="" /> Hembra
+                    <br>
+                    <textarea name="descripcion" rows="15" cols="30">Ingrese el motivo por el cual desea adoptar un gato</textarea>
+                    <br>
+                    <input type="submit" value="Enviar" name="enviar" />
+
+                </form>
+                
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article> 
+                <h2>Localización de lugar de adopción</h2><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.287054763063!2d-84.13346232419802!3d9.993130373151324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fbaf1b24c2fb%3A0x97f2dfb506c6dbaf!2swww.adoptame.cr%20%7C%20Pagina%20web%20para%20adoptar%20perritos%20y%20gatitos!5e0!3m2!1ses-419!2scr!4v1685948297189!5m2!1ses-419!2scr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </article>
+            <br>
+        </section>
+        <br>
+        <!--footer -->
+        <footer class="foot">
+            <p>Derechos reservados &COPY; 2023</p> 
+            
+        </footer>
+
+    </body>
+</html>
